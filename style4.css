@@ -1,0 +1,49 @@
+.app {
+	position:relative;
+	overflow:hidden;
+}	
+th {
+    width: 30%;
+    text-align: right;
+    border: solid 2px;
+    padding: 5px;
+}
+table {
+    background-color: gray;
+    border-collapse: collapse;
+    border: solid 3px;
+    width: 550px;
+    height: 450px;
+}
+.block {
+    text-align: center;
+    font-weight: bold;
+
+}
+td {
+    padding: 5px;
+    border: solid 2px;
+}
+.top {
+    vertical-align: top;
+}
+.right {
+    text-align: right;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;		
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.border {
+    border-color: black;
+}
+.color {
+    background: black;
+}
